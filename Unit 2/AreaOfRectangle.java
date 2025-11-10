@@ -6,10 +6,10 @@ public class AreaOfRectangle {
         
         Scanner input = new Scanner(System.in);
         System.out.println("Enter breadth");
-        int length=input.nextInt();
+        int breadth=input.nextInt();
         System.out.println("Enter length");
 
-        int breadth=input.nextInt();
+        int length=input.nextInt();
 System.out.println("The area of ractangle is: "+length*breadth);
 
 input.close();
